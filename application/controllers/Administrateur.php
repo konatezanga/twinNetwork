@@ -55,6 +55,11 @@ class Administrateur extends CI_Controller
 		redirect('admin/user');
 	}
 
+	public function accepte_user($id){
+		$this->Gestion_bd->accepte_user($id);
+		redirect('admin/user');
+	}
+
 	public function user(){
 		$mail = $this->session->userdata('user_mail');
 		if(isset($mail)) {
@@ -64,6 +69,7 @@ class Administrateur extends CI_Controller
 				redirect('admin');
 			}
 	}
+
 
 	public function liste(){
 		$mail = $this->session->userdata('user_mail');

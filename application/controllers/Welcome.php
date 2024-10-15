@@ -46,16 +46,17 @@ class Welcome extends CI_Controller {
 	public function twinbook(){
 		$mat = $this->session->userdata('matricule');
 		if(isset($mat)){
-		$data['programmes'] = $this->Gestion_bd->obtenir_programme();
-		if (empty($data['programmes'])){
-			$this->load->view('page10');
-		}else{
-			$this->load->view('page10',$data);
-		}
+			$data['programmes'] = $this->Gestion_bd->obtenir_programme();
+			if (empty($data['programmes'])){
+				$this->load->view('page10');
+			}else{
+				$this->load->view('page10', $data);
+			}
 		}else{
 			redirect('profile');
 		}
 	}
+
 
 	public function stage_emploi(){
 		$mat = $this->session->userdata('matricule');
@@ -180,7 +181,8 @@ class Welcome extends CI_Controller {
 			'matricule'=>$matri,
 			'email'=>$email,
 			'password'=>$passe,
-			'genre'=>$genre
+			'genre'=>$genre,
+			'statut'=>'inactive'
 		);
 		$erreur = $this->Gestion_bd->inscrire($data);
 		if(isset($erreur)){
@@ -200,8 +202,13 @@ class Welcome extends CI_Controller {
 		if (isset($info)) {
 			if ($info['email'] == $email) {
 				if ($info['password'] == $passe) {
-					$this->session->set_userdata('matricule',$matricule);
-					$this->profile_connecter($matricule);
+					if ($info['statut'] == 'active') {
+						$this->session->set_userdata('matricule',$matricule);
+						$this->profile_connecter($matricule);
+					}else{
+						$data['erreur_passe'] = "Votre compte n'est pas actif";
+						$this->load->view('page6', $data);
+					}
 				}else{
 					$data['erreur_passe'] = "Erreur dans le mot de passe";
 					$this->load->view('page6', $data);

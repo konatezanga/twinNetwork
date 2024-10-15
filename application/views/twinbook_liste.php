@@ -250,7 +250,8 @@ footer {
     <div id="cont" class="container">
         <div class="section">
             <h1>Licence 1</h1>
-			<?php if (isset($books)){
+
+			<?php if (isset($books) && !empty($books)){
 			foreach($books as $programme): ?>
             <div class="tabs">
                 <div  class="tab">COURS

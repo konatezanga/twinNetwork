@@ -228,7 +228,15 @@ footer {
 					<td><?php echo $user['matricule'] ?></td>
 					<td><?php echo $user['email'] ?></td>
 					<td><?php echo $user['genre'] ?></td>
-					<td><a href="<?php echo site_url('admin/delete/'.$user['id']) ?>" style="text-decoration: none; color: black">delete</td>
+					<td>
+						<a href="<?php echo site_url('admin/delete/'.$user['id']) ?>" style="text-decoration: none; color: red;">delete</a>
+
+						<?php if ($user['statut'] == 'inactive'){ ?>
+
+						<a href="<?php echo site_url('admin/accepte/'.$user['id']) ?>" style="text-decoration: none; color: forestgreen;">accepte</a>
+
+						<?php } ?>
+					</td>
 				</tr>
 				<?php endforeach; ?>
 				</tbody>

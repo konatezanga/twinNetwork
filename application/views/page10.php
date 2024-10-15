@@ -56,8 +56,10 @@
 					<a href="<?php echo base_url('programme/'.$programme['corrections']) ?>" download="<?php echo $programme['corrections'] ?>"><?php echo $programme['corrections'] ?></a>
                 </div>
             </div>
-			<?php endforeach; } ?>
-			<h2 style="text-align: center">Indisponible</h2>
+			<?php endforeach;
+			}else{ ?>
+				<h2 style="text-align: center">Indisponible</h2>
+			<?php } ?>
         </div>
     </div>
 	<footer>

@@ -76,6 +76,7 @@ $route['admin/page_twinbook/add_twinbook/add'] = 'Administrateur/insertion';
 $route['admin/espace'] = 'Administrateur/admin';
 $route['admin/user'] = 'Administrateur/user';
 $route['admin/delete/(:num)'] = 'Administrateur/delete_user/$1';
+$route['admin/accepte/(:num)'] = 'Administrateur/accepte_user/$1';
 $route['admin/contact'] = 'Administrateur/contact';
 $route['admin/contact/message/(:num)'] = 'Administrateur/message/$1';
 $route['admin/stage_emploi']='Administrateur/stage_emploi';

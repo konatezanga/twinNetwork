@@ -26,6 +26,12 @@ class Gestion_bd extends CI_Model{
 		$this->db->delete('utilisateur');
 	}
 
+	public function accepte_user($id)
+	{
+		$this->db->where('id', $id);
+		$this->db->update('utilisateur', array('statut' => 'active'));
+	}
+
 	public function connecter(){
 		$query = $this->db->get('administrateur');
 		return $query->row();
@@ -53,7 +59,7 @@ class Gestion_bd extends CI_Model{
 	}
 
 	public function verife_utilisateur($matricule){
-		$query = $this->db->where(array('matricule'=>$matricule))->get('utilisateur');
+		$query = $this->db->where(array('matricule'=>$matricule,'statut'=>'active'))->get('utilisateur');
 		return $query->num_rows();
 	}
 

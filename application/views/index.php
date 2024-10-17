@@ -11,16 +11,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/page1.css') ?>">
-	<link rel="icon" href="<?php echo base_url('assets/img/logo_TWIN.png') ?>">
+	<link rel="icon" href="<?php echo base_url('assets/img/MonLogo.PNG') ?>">
 </head>
 <body>
     <header>
 		<nav>
 			<div class="logo">
-				<img src="<?php echo base_url('assets/img/logo_TWIN.png') ?>">
+				<img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>">
 			</div>
 			<ul>
-				<li class="fixe"><a href="<?php echo site_url('presentation') ?>">Présentation de la Twin</a></li>
+				<li class="fixe"><a href="<?php echo site_url('presentation') ?>">Présentation Twin</a></li>
 				<li><a href="<?php echo site_url('deboucher') ?>">Débouchés</a></li>
 				<li><a href="<?php echo site_url('contact') ?>">Contacts</a></li>
 				<li><a href="<?php echo site_url('profile') ?>">Profil</a></li>
@@ -28,8 +28,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</nav>
 	</header>
     <div class="square">
-        <img src="<?php echo base_url('assets/img/logo_TWIN.png') ?>" alt="Votre image">
-        <div class="text">TECHNOLOGIES DU WEB ET IMAGES NUMERIQUES</div>
+        <img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>" alt="Votre image">
+        <div class="text" style="color:black;">TECHNOLOGIES DU WEB ET IMAGES NUMERIQUES</div>
       </div>
       <div class="text1"><h2>BIENVENUE SUR TWIN NETWORKS,</h2>
     <h2>Le plus grands reseau de tout les étudiants et anciens etudiants de TWIN</h2></div>
@@ -71,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <p><a href="mailto:info@esatic.ci"><img class="img" src="<?php echo base_url('assets/img/courrier-removebg-preview.png') ?>" alt="" >infoesatic@mail.ci</a></p>
       </div>
 <div class="logo">
-<p><img src="<?php echo base_url('assets/img/logo_TWIN.png') ?>" alt="Votre logo"></p>
+<p><img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>" alt="Votre logo"></p>
 </div>
   </footer>
 </body>

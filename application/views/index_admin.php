@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>acceuil admin</title>
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/index.css') ?>">
-	<link rel="icon" href="<?php echo base_url('assets/img/logo_TWIN.png') ?>">
+	<link rel="icon" href="<?php echo base_url('assets/img/MonLogo.PNG') ?>">
 </head>
 <body>
 	<header>
 		<nav>
 			<div class="logo">
-				<img src="<?php echo base_url('assets/img/logo.jpg') ?>">
+				<img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>">
 			</div>
 			<ul>
 				<li><a href="<?php echo site_url('admin/user') ?>">UTILISATEURS</a></li>
@@ -23,8 +23,8 @@
 	</header>
 
   <div class="square">
-    <img src="<?php echo base_url('assets/img/logo-removebg-preview (1).png') ?>" alt="Votre image">
-    <div class="text">TECHNOLOGIES DU WEB ET IMAGES NUMERIQUES <br>PARTIE ADMINIDTRATEUR</div>
+    <img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>" alt="Votre image">
+    <div class="text" style=" color:black;">TECHNOLOGIES DU WEB ET IMAGES NUMERIQUES <br>PARTIE ADMINIDTRATEUR</div>
   </div>
     
 
@@ -53,7 +53,7 @@
       <img style="margin-left: 37%" src="<?php echo base_url('assets/img/localisation.jpg') ?>" alt="">
     </div>
 
-    <div class="aze"> <img src="<?php echo base_url('assets/img/logo.jpg') ?>" alt=""></div>
+    <div class="aze"> <img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>" alt=""></div>
 
     <div class="numero">
       <p> +2252721218100</p>

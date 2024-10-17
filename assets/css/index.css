@@ -162,6 +162,9 @@ height: 140px;
   border-radius: 20px;
   
 }
+.square div{
+  color: #000;
+}
 .square img {
 
   width: 35%;

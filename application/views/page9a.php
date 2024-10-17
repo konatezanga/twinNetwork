@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>offres de stages</title>
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/page9.css') ?>">
-	<link rel="icon" href="<?php echo base_url('assets/img/logo_TWIN.png') ?>">
+	<link rel="icon" href="<?php echo base_url('assets/img/MonLogo.PNG') ?>">
 </head>
 <body>
 <header>
@@ -56,7 +56,7 @@
 		<p><a href="mailto:info@esatic.ci"><img class="img" src="<?php echo base_url('assets/img/courrier-removebg-preview.png') ?>" alt="" >infoesatic@mail.ci</a></p>
 	</div>
 	<div class="logo">
-		<p><img src="<?php echo base_url('assets/img/logo_TWIN.png') ?>" alt="Votre logo"></p>
+		<p><img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>" alt="Votre logo"></p>
 	</div>
 </footer>
 </body>

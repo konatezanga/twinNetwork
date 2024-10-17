@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="<?php echo base_url('assets/css/page3.css') ?>">
-	<link rel="icon" href="<?php echo base_url('assets/img/logo_TWIN.png') ?>">
+	<link rel="icon" href="<?php echo base_url('assets/img/MonLogo.PNG') ?>">
 </head>
 <body>
     <header>
 		<nav>
 			<div class="logo">
-				<img src="<?php echo base_url('assets/img/logo_TWIN.png') ?>">
+				<img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>">
 			</div>
 			<ul>
-				<li><a class="fixe" href="<?php echo site_url('presentation') ?>">Présentation de la Twin</a></li>
+				<li><a class="fixe" href="<?php echo site_url('presentation') ?>">Présentation Twin</a></li>
 				<li><a  href="<?php echo site_url('deboucher') ?>">Débouchés</a></li>
 				<li><a style="color: rgb(6, 184, 249);" href="<?php echo site_url('contact') ?>">Contacts</a></li>
 				<li><a href="<?php echo site_url('profile') ?>">Profil</a></li>
@@ -30,13 +30,13 @@
             </div>
     
             <div>
-              <input type="tel" id="phone" name="phone" required placeholder="Telephone">
+              <input type="tel" id="phone" name="phone" required placeholder="Votre telephone">
             </div>
           </div>
     
           <div class="champs">
             <div>
-              <input type="email" id="email" name="email" required placeholder="Email">
+              <input type="email" id="email" name="email" required placeholder="Votre Email">
             </div>
     
             <div>
@@ -44,7 +44,7 @@
               <input type="text" id="subject" name="subject" required placeholder="Objet">
             </div>
           </div>
-          <textarea id="message" name="message" required placeholder="Message"></textarea>
+          <textarea id="message" name="message" required placeholder="Dites nous ce que vous pensez" style="resize:none;"></textarea>
             <input type="submit" value="Envoyer" placeholder="Envoyer">
         </form> 
       </div>
@@ -61,7 +61,7 @@
 			<img src="<?php echo base_url('assets/img/localisateur-removebg-preview (1).png') ?>"" alt="">
 		</div>
 
-		<div class="aze"> <img src="<?php echo base_url('assets/img/logo_TWIN.png') ?>" alt=""></div>
+		<div class="aze"> <img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>" alt=""></div>
 
 		<div class="numero">
 			<p> +2252721218100</p>

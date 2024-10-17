@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TWIN BOOK</title>
    <link rel="stylesheet" href="page10.css">
-	<link rel="icon" href="<?php echo base_url('assets/img/logo_TWIN.png') ?>">
+	<link rel="icon" href="<?php echo base_url('assets/img/MonLogo.PNG') ?>">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
 	<link href="<?php echo base_url('assets/css/styles.css')?> " rel="stylesheet" />
@@ -182,7 +182,7 @@ footer {
     <header>
 		<nav>
 			<div class="logo">
-				<img src="<?php echo base_url('assets/img/logo.jpg') ?>">
+				<img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>">
 			</div>
 			<ul>
 				<li><a href="<?php echo site_url('admin/user') ?>">UTILISATEURS</a></li>
@@ -252,7 +252,7 @@ footer {
 			<p><a href="mailto:info@esatic.ci"><img class="img" src="<?php echo base_url('assets/img/courrier-removebg-preview.png') ?>" alt="" >infoesatic@mail.ci</a></p>
 		</div>
 		<div class="logo">
-			<p><img src="<?php echo base_url('assets/img/logo_TWIN.png') ?>" alt="Votre logo"></p>
+			<p><img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>" alt="Votre logo"></p>
 		</div>
 	</footer>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>

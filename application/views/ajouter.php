@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ajouter twinbook</title>
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/ajouter.css') ?>">
-	<link rel="icon" href="<?php echo base_url('assets/img/logo_TWIN.png') ?>">
+	<link rel="icon" href="<?php echo base_url('assets/img/MonLogo.PNG') ?>">
 	<style>
 		html{
 			height: 100%;
@@ -21,7 +21,7 @@
 <header>
 	<nav>
 		<div class="logo">
-			<img src="<?php echo base_url('assets/img/logo.jpg') ?>">
+			<img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>">
 		</div>
 		<ul>
 			<li><a href="<?php echo site_url('admin/user') ?>">UTILISATEURS</a></li>
@@ -75,7 +75,7 @@
 		<img style="margin-left: 37%" src="<?php echo base_url('assets/img/localisation.jpg') ?>" alt="">
 	</div>
 
-	<div class="aze"> <img src="<?php echo base_url('assets/img/logo.jpg') ?>" alt=""></div>
+	<div class="aze"> <img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>" alt=""></div>
 
 	<div class="numero">
 		<p> +2252721218100</p>

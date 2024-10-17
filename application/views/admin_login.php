@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion</title>
-	<link rel="icon" href="<?php echo base_url('assets/img/logo_TWIN.png') ?>">
+	<link rel="icon" href="<?php echo base_url('assets/img/MonLogo.PNG') ?>">
     <style>*{
         margin: 0;
         padding: 0;
@@ -209,7 +209,7 @@
     <header>
 		<nav>
 			<div class="logo">
-				<img src="<?php echo base_url('assets/img/logo_TWIN.png')?>">
+				<img src="<?php echo base_url('assets/img/MonLogo.PNG')?>">
 			</div>
 		</nav>
 	</header>
@@ -242,7 +242,7 @@
 			<p><a href="mailto:info@esatic.ci"><img class="img" src="<?php echo base_url('assets/img/courrier-removebg-preview.png') ?>" alt="" >infoesatic@mail.ci</a></p>
 		</div>
 		<div class="logo">
-			<p><img src="<?php echo base_url('assets/img/logo_TWIN.png') ?>" alt="Votre logo"></p>
+			<p><img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>" alt="Votre logo"></p>
 		</div>
 	</footer>
     

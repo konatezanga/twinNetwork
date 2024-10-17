@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>offres de stages</title>
     <link rel="stylesheet" href="<?php echo base_url('assets/css/page9.css') ?>">
-	<link rel="icon" href="<?php echo base_url('assets/img/logo_TWIN.png') ?>">
+	<link rel="icon" href="<?php echo base_url('assets/img/MonLogo.PNG') ?>">
 </head>
 <body>
     <header>
 		<nav>
 			<div class="logo">
-				<img src="<?php echo base_url('assets/img/logo_TWIN.png') ?>">
+				<img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>">
 			</div>
 			<ul>
-				<li><a class="fixe" href="<?php echo site_url('presentation') ?>">Présentation de la Twin</a></li>
+				<li><a class="fixe" href="<?php echo site_url('presentation') ?>">Présentation Twin</a></li>
 				<li><a href="<?php echo site_url('deboucher') ?>">Débouchés</a></li>
 				<li><a href="<?php echo site_url('contact') ?>">Contacts</a></li>
 				<li><a href="<?php echo site_url('profile') ?>">Profil</a></li>
@@ -56,7 +56,7 @@
 			<p><a href="mailto:info@esatic.ci"><img class="img" src="<?php echo base_url('assets/img/courrier-removebg-preview.png') ?>" alt="" >infoesatic@mail.ci</a></p>
 		</div>
 		<div class="logo">
-			<p><img src="<?php echo base_url('assets/img/logo_TWIN.png') ?>" alt="Votre logo"></p>
+			<p><img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>" alt="Votre logo"></p>
 		</div>
 	</footer>
 </body>

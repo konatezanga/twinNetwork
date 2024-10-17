@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>profile</title>
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/page7.css') ?>">
-	<link rel="icon" href="<?php echo base_url('assets/img/logo_TWIN.png') ?>">
+	<link rel="icon" href="<?php echo base_url('assets/img/MonLogo.PNG') ?>">
 </head>
 <body>
     <header>
 		<nav>
 			<div class="logo">
-				<img src="<?php echo base_url('assets/img/logo_TWIN.png') ?>">
+				<img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>">
 			</div>
 			<ul>
-				<li><a class="fixe" href="<?php echo site_url('presentation') ?>">Présentation de la Twin</a></li>
+				<li><a class="fixe" href="<?php echo site_url('presentation') ?>">Présentation Twin</a></li>
 				<li><a href="<?php echo site_url('deboucher') ?>">Débouchés</a></li>
 				<li><a href="<?php echo site_url('contact') ?>">Contacts</a></li>
 				<li><a style="color: rgb(6, 184, 249);" href="<?php echo site_url('profile') ?>">Profil</a></li>
@@ -65,7 +65,7 @@
 			<img src="<?php echo base_url('assets/img/localisateur-removebg-preview (1).png') ?>"" alt="">
 		</div>
 
-		<div class="aze"> <img src="<?php echo base_url('assets/img/logo_TWIN.png') ?>" alt=""></div>
+		<div class="aze"> <img src="<?php echo base_url('assets/img/MonLogo.PNG') ?>" alt=""></div>
 
 		<div class="numero">
 			<p> +2252721218100</p>

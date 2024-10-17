@@ -92,7 +92,7 @@ body {
   }
   
   input[type=tel], input[type=email], input[type=text] , textarea {
-    width: 100%;
+    width: 80%;
     padding: 25px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -100,13 +100,15 @@ body {
     border: none;
     background-color: #F5F5F5;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2em;
+    font-size: 0.5em;
+    resize: none;
   }
 
   textarea {
-    height: 200px;
+    height: 150px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2em;
+    font-size: 1em;
+    resize: none;
   }
 
   input[type=submit] {
@@ -116,17 +118,17 @@ body {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 80%;
     border-radius: 20px;
     transition-duration: 0.4s;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2em;
+    font-size: 0.5em;
 
   
 }
 
 input[type=submit]:hover {
-  background-color: #000000;
+  background-color: #5a5858;
 }
 
 .numero img{

@@ -213,7 +213,7 @@
 			</div>
 		</nav>
 	</header>
-    <h1>CONEXION</h1>
+    <h1>CONNEXION</h1>
     <div class="pere">
         <form action="<?php echo site_url('admin/verifier') ?>" method="post">
           <div class="champs">

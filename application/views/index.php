@@ -37,7 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="text2"><h3>WELCOME TO TWIN NETWORK,</h3>
         <h3>The largest network of all TWIN students and alumni</h3>
       </div>
-      <div class="image"><img src="<?php echo base_url('assets/img/Photo esatic.jpg') ?>" alt=""width="1379"></div>
+      <div class="image"><img src="<?php echo base_url('assets/img/image.jpg') ?>" alt=""width="1379"></div>
       <div class="container">
 		<div class="section">
 			<h2>00</h2>

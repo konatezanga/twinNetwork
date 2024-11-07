@@ -3,7 +3,7 @@
 .titre h1{
 	display: flex;
 	justify-content: center;
-  font-size:45px ;
+  font-size:40px ;
   margin-top: 3%;
 }
 .contact ol a p {
@@ -23,7 +23,7 @@ header {
 	background-color: #e7e7e7;
 	color: #fff;
 	padding: 20px;
-    background: linear-gradient(to top, #079CF0 5%, transparent 5%);
+  background: linear-gradient(to top, #079CF0 5%, transparent 5%);
     
 }
 
@@ -50,9 +50,9 @@ ul {
 	list-style-type: none;
 	margin: 20px;
 	padding: 0;
-    margin-left: 35%;
-    font-size: x-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 35%;
+  font-size: x-large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      
 }
 
@@ -117,7 +117,7 @@ li a {
   color: black;
   text-align:center;
   
-margin-top: -1.3%;
+  margin-top: -1.3%;
   margin-left: 0.5%;
   margin-bottom: -4.4%;
 
@@ -128,7 +128,7 @@ margin-top: -1.3%;
   height: 28px;
   margin-left: 41%;
   margin-top: -10%;
-margin-bottom: 1.5%;  
+  margin-bottom: 1.5%;  
 
 }
 .lieu p{
@@ -147,18 +147,18 @@ color: #000;
 }
 .maila img{
   width: 26px;
-height: 26px;
-display: flex;
-justify-content: center;
-margin-left: 45.5%;
-margin-top: -1%;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  margin-left: 45.5%;
+  margin-top: -1%;
 
 }
 
 .aze img{
   width: 227px;
-height: 140px;
-margin-top:-13%;
+  height: 140px;
+  margin-top:-13%;
 }
 footer{
   width: 100%;
